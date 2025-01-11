@@ -1,0 +1,6 @@
+requests
+nltk
+Scrapy
+beautifulsoup4
+newspaper3k
+lxml_html_clean
