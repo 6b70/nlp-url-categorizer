@@ -1,13 +1,13 @@
 # NLP URL Categorizer
 
-This project is a Python tool for classifying URLs into predefined categories using Natural Language Processing (NLP). It extracts and cleans text from web pages, processes the content, and compares it against a corpus of categorized text data using a probabilistic model.
+This project is a Python tool for classifying URLs into predefined categories using Natural Language Processing. It extracts and cleans text from web pages, processes the content, and compares it against a corpus of categorized text data using a probabilistic model.
 
 Sample output data for the current contents of `links.json` can be found in `result.json`.
 
 ## How It Works
 
-1. Fetches web pages and extracts title, meta tags, and content.
-2. Downloads Wikipedia data into `category_data/` to create the categorized corpus.
+1. Downloads Wikipedia data into `category_data/` to create the categorized corpus.
+2. Fetches web pages and extracts title, meta tags, and content.
 3. Lemmatizes and cleans the extracted text.
 4. Compares the text against the categorized corpus.
 5. Assigns the URL to the category with the highest probabilistic match.
